@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "slurm_invoke"
+version = "0.1.0"
+authors = [
+    { name = "Cristian Le", email = "cristian.le@mpsd.mpg.de" },
+]
+description = "Slurm wrapper for submitting and running jobs"
+readme = "README.md"
+requires-python = ">=3.7"
+license = "GPL-3.0-or-later"
+dependencies = [
+    "invoke >= 2.0"
+]
+
+[project.optional-dependencies]
